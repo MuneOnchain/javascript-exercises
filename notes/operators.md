@@ -25,3 +25,12 @@ score *= 3; // score is now 12
 let score = 20;
 score /= 2; // score is now 10
 ```
+
+`===` is the strict equality operator. it is used to test whether the value of left and right is identical to each other.
+
+```javascript
+5 === "5" // value is false, string
+
+`==` is the loose equality operator. It converts types before comparing.
+5 == "5" // true, string converted first
+```
