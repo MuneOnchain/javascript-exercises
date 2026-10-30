@@ -34,3 +34,5 @@ score /= 2; // score is now 10
 `==` is the loose equality operator. It converts types before comparing.
 5 == "5" // true, string converted first
 ```
+
+unary operator is used to reverse the sign of operands
