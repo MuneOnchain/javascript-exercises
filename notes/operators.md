@@ -35,4 +35,6 @@ score /= 2; // score is now 10
 5 == "5" // true, string converted first
 ```
 
-unary operator is used to reverse the sign of operands
+unary operator; is used to reverse the sign of operands.
+
+
