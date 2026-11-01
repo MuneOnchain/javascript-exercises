@@ -4,23 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apply JavaScript example</title>
-    <script type="module" src="index.js"></script>
+   
 </head>
 <body>
     <button>Click me</button>
     <button>wanna look handsome</button>
      
     <script>
-        function createParagraph() {
-        const para = document.createElement("p");
-        para.textContent = "you clicked the button!";
-        document.body.appendChild(para);    } 
+      let a = prompt("First number?", 1);
+      let b = prompt("Second number?", 2);
 
-    const buttons = document.querySelectorAll("button");
-
-    for (const button of buttons) {
-       button.addEventListener("click", createParagraph);
-    }
+      alert(+a + +b)
     </script>
 </body>
 </html>
