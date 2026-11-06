@@ -33,4 +33,18 @@ let leftPadding2 = leftPadding.trimStart(); // JavaScript String trimStart()
 console.log("[" + leftPadding2 + "]")
 
 
+let character = "Hello World!"
+let character2 = character.charAt(20);
+console.log(character2);
 
+let char = "Hello World";
+let char2 = char[20];
+console.log(char2);
+
+let school = "W3Schools";
+let letter = school.at(2);
+console.log(letter);
+
+let school2 = "hello world!";
+let letter2 = school2.at(-1);
+console.log(letter2);
