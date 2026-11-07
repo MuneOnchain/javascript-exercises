@@ -1,5 +1,10 @@
-if (condition) {
-    /* code to run if condition id true */
+
+ let age = 30;
+if (age < 13) {
+    console.log("child");
+} else if (age < 20) {
+    console.log("teen");
 } else {
-    /* run some other code instead /*
+    console.log("adult");
+
 }
