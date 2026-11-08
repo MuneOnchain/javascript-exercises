@@ -8,3 +8,10 @@ if (age < 13) {
     console.log("adult");
 
 }
+
+let color = "blue";
+if (color.toLowerCase() === "red") {
+    console.log("match");
+} else {
+    console.log("no match");
+}
