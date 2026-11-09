@@ -1,9 +1,13 @@
 console.log(Boolean("0"));
 console.log(Boolean(""));
 
-let Xacc = "";
+let Xacc = " ";
 if (Xacc) {
     console.log("has text")
 } else { console.log("empty")
 
 }
+
+console.log(NaN == NaN)
+console.log(isNaN("hello"));
+console.log(isNaN(5))
