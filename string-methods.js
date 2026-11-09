@@ -69,3 +69,12 @@ console.log(change2);
 let words ="I like my cats and dogs";
 let words2 = words.split(" ");
 console.log(words2.length);
+
+
+let n = "10";
+let nu =n.padEnd(7, "5");
+console.log(nu);
+
+let vari = "ha";
+let vari2 = vari.repeat(3)
+console.log(vari2);
