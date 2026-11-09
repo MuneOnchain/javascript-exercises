@@ -55,10 +55,17 @@ let cat3 = cat.concat(" ", cat2);
 console.log(cat3);
 
 let str = "Apple, Banana, Kiwi";
-let part2 = str.substring(7); // JavaScript substirng() It cuts a piece 
-// out of a string and gives you that piece back
-console.log(part2);
+let part2 = str.substring(7);
+ console.log(part2);                     
 
 let love = "I like cats and cats like me";
 let myLove = love.replaceAll("cats", "dogs");
 console.log(love);
+
+let change ="Apple, Banana, Kiwi";
+let change2 = change.split(" ");
+console.log(change2);
+
+let words ="I like my cats and dogs";
+let words2 = words.split(" ");
+console.log(words2.length);
