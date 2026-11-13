@@ -1,7 +1,10 @@
-let cheese = "cheddar";
+let shoppingDone = false;
+let childALLowance;
 
-if ("cheese") {
-    console.log("Yay! Cheese available for making cheese on toast.");
+if (shoppingDone) {
+    childALLowance = 10;
+    console.log(childALLowance);
 } else {
-    console.log("No cheese on toast for you today.");
+    childALLowance = 5;
+    console.log(childALLowance);
 }
