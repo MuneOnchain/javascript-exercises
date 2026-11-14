@@ -22,10 +22,15 @@ let values = prompt('What is the "official" name of JavaScript?', '');
       alert("You don't know? ECMAScript!");
     }
 
-    */
+    
 let a = 1;
 let b = 2;
 
 let result = (a + b < 3 ) ? 'Below' : 'Over';
 console.log(result);
-
+*/
+let login = "Director";
+let message = (login == 'Employee') ? 'Hello' :
+(login == 'Director') ? 'Greetings' :
+(login == '') ? 'No login' : '';
+console.log(message);
