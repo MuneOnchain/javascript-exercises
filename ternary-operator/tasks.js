@@ -13,3 +13,14 @@ if (value > 0) {
 
 // Task 2
 
+let values = prompt('What is the "official" name of JavaScript?', '');
+
+    if (values == 'ECMAScript') {
+      alert('Right!');
+    } else {
+      alert("You don't know? ECMAScript!");
+    }
+
+    // Task 3
+    
+
