@@ -1,6 +1,7 @@
+/*
 if ("0") {
     console.log("Hello");
-} // task 1
+}
 
 let value = prompt('Type a number', 0)
 if (value > 0) {
@@ -11,7 +12,7 @@ if (value > 0) {
   alert ( 0 );
 }
 
-// Task 2
+
 
 let values = prompt('What is the "official" name of JavaScript?', '');
 
@@ -21,6 +22,10 @@ let values = prompt('What is the "official" name of JavaScript?', '');
       alert("You don't know? ECMAScript!");
     }
 
-    // Task 3
-    
+    */
+let a = 1;
+let b = 2;
+
+let result = (a + b < 3 ) ? 'Below' : 'Over';
+console.log(result);
 
